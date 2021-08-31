@@ -113,7 +113,5 @@ function TodoList() {
     </Container>
   );
 }
-function Test() {
-  return <div>hello</div>;
-}
-export default Test;
+
+export default TodoList;
