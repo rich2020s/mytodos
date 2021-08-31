@@ -1,7 +1,6 @@
 import "./todo.css";
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import { AddTodo, TodoFilter, Todos, Container, Title } from "./components";
-import { useEffect } from "react/cjs/react.development";
 
 function TodoList() {
   const id = useRef(3);
